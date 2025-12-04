@@ -261,76 +261,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "1dbad786-3ad7-48fb-b57c-aa6b7daf1525": {
-      "type": "Testimonials",
-      "blocks": {
-        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-0": {
-          "type": "quote",
-          "settings": {
-            "imgone": "shopify://shop_images/protoimg.webp",
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Himani Singh - NEW DELHI",
-            "link": ""
-          }
-        },
-        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-1": {
-          "type": "quote",
-          "settings": {
-            "imgone": "shopify://shop_images/protoimg.webp",
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Anna Grey",
-            "link": ""
-          }
-        },
-        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-2": {
-          "type": "quote",
-          "settings": {
-            "imgone": "shopify://shop_images/protoimg.webp",
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Anna Grey",
-            "link": ""
-          }
-        },
-        "1dbd85be-d620-4552-a145-bc05c247cbc6": {
-          "type": "quote",
-          "settings": {
-            "imgone": "shopify://shop_images/Group_44496_900x_head_image.webp",
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author’s name",
-            "link": ""
-          }
-        },
-        "3a634710-643e-470c-b45a-725625fe9554": {
-          "type": "quote",
-          "settings": {
-            "imgone": "shopify://shop_images/protoimg.webp",
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author’s name",
-            "link": ""
-          }
-        },
-        "177f596e-5dee-4f0c-a612-5a2e351c7fe0": {
-          "type": "quote",
-          "settings": {
-            "imgone": "shopify://shop_images/Group_44496_900x_head_image.webp",
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author’s name",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-0",
-        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-1",
-        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-2",
-        "1dbd85be-d620-4552-a145-bc05c247cbc6",
-        "3a634710-643e-470c-b45a-725625fe9554",
-        "177f596e-5dee-4f0c-a612-5a2e351c7fe0"
-      ],
-      "settings": {
-        "title": "Customer Review"
-      }
     }
   },
   "order": [
@@ -339,7 +269,6 @@
     "b40bf24b-4958-404c-be88-b6219a7950c5",
     "ff60d699-7d48-41cc-8c6a-a51efcd6b9b1",
     "46a5b559-752c-4c34-ad40-fc74dc7f6797",
-    "168197046195d73c5e",
-    "1dbad786-3ad7-48fb-b57c-aa6b7daf1525"
+    "168197046195d73c5e"
   ]
 }
