@@ -1,0 +1,295 @@
+@font-face {
+  font-family: "Roboto-Black.woff2";
+  src: url("{{ '[Roboto-Black.woff2]' | asset_url }}") format("[woff2]");
+}
+@font-face{
+  font-family: "Ysabeau-Black.woff";
+  src: url("{{ '[Ysabeau-Black.woff]' | asset_url }}") format("[woff]");
+}
+#collection-one
+{
+  text-align:center;
+  font-size:35px;
+  font-family:robot;
+ padding-top: 2rem;
+} 
+.slick-slide img{
+  display:inline !important;
+}
+.link_op img
+{
+  width:100%;
+  height:auto;
+}
+.title-wrapper--no-top-margin {
+    margin-bottom: 50px!important;
+}
+.slick-next
+{
+    right:0px!important;
+}
+.footer-block__heading 
+{
+  font-size:20px;
+}
+.fa
+{
+  font-size:24px!important;
+}
+.grid
+{
+  font-family:cursive;
+}
+.image-with-text p
+{
+  font-family:Roboto-Black;
+  font-size:17px;
+  font-weight: 500;
+}
+.card-one
+{
+  border:1px solid!important;
+}
+.collection-list-title
+{
+  font-size:35px;
+}
+.dot
+{
+  position:absolute;
+  bottom:60px;
+background-color:white;
+}
+#collection-two
+{
+  text-align:center;
+ padding: 0px 0px 20px 0px;
+}
+.announcement-bar__message
+{
+  font-family:robot;
+  font-size:15px;
+}
+.container_template{  
+  width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.list-menu--inline
+{
+  font-family:robot;
+}
+.coll-cus .collection__title h2 {
+  line-height:30px;
+  color: #111010;
+  border-bottom:5px solid black;
+  max-width: 100%;
+  margin: auto;
+}
+.button--secondary
+{
+  background-color:black;
+  transition-duration:1s;
+}
+.banner__heading
+{
+   font-family:robot;
+}
+.button--secondary:hover
+{
+  background-color:#311289;
+}
+.image-with-text__media--small
+{
+   transition: 0.4s ease;
+}
+.image-with-text__media--small:hover
+{
+  transform: scale(1.08);
+}
+.menu__item--link
+{
+  font-size: 18px;
+  color: white;
+}
+
+.quote
+{
+  border:none!important;
+  text-align:center;
+  background-color:#f3f3f3;
+  padding:30px;
+  font-size:20px;
+  line-height:2.7rem;
+}
+.quote img
+{
+  border-radius: 50px;
+}
+.shopfiy-test  
+{
+ display:flex;
+  padding-bottom: 40px;
+}
+.Reviwe
+{
+  text-align: center;
+    font-size:35px;
+ font-family:robot;
+}
+#imag_object img
+{
+  object-fit:contain;
+}
+.image-with-text__heading inline-richtext h1
+{
+  font-family:cursive !important;
+}
+.shopfiy-test img:hover
+{
+   transform: scale(1.08);
+  
+}
+.card:not(.ratio)
+{
+  padding:20px;
+  background-color: white;
+}
+.card:not(.ratio)
+{
+ box-shadow: 0px 0px 10px 0px;
+  cursor:pointer;
+}
+.card:hover 
+{
+  padding:20px;
+  box-shadow:20px;
+}
+.footer__content-bottom
+{
+  border:none !important;
+  padding:0px !important;
+}
+
+.banner__heading
+{
+ font-family: robot !important;
+}
+#unstyled
+{
+  padding:20px;
+  text-align:center;
+  transition: all 0.25s ease;
+  background-color:#202c61;
+  color:white;
+}
+
+#unstyled:hover{
+    box-shadow: var(--box-shadow-button-hover);
+    transform: translate(2px, -2px);
+    letter-spacing:0.05em;
+ border-radius: 40px;
+}
+.color-background
+{
+  background-color:white;
+}
+.footer color-background-1
+{
+  background-color:#fafafb !important;
+}
+.link_insta
+{
+  padding-left:18px;
+}
+#footer_color1
+{
+  background-color: #fafafb;
+}
+.footer-block--menu
+{
+  padding-left:60px;
+}
+.imagone-text
+{
+  background-color:aliceblue;
+}
+@media screen and (max-width:767px) {
+  .shopfiy-test{
+    
+    display:block;
+}
+  .slider-button .icon
+  {
+    display:none;
+  }
+   .banner-one
+  {
+    display:none!important;
+  }
+  .card-one
+  {
+    border:2px solid!important;
+  }
+#collection-one
+{
+  font-size:2.5rem;
+}
+#collection-two
+{
+  font-size:1.5rem!important;
+}
+}
+@media screen and (max-width:424px)
+{
+  .header--mobile-left .header__heading
+  {
+    text-align: center;
+    justify-self:auto;
+  }
+ 
+  .link_op img {
+    width: 100%;
+    height:100%;
+}
+  .footer-block-image
+  {
+    justify-content:start !important;
+  }
+  .footer__list-social.list-social
+  {
+    justify-content:start !important;
+  }
+  .list-menu__item--link
+  {
+    line-height:1.5rem !important;
+  }
+  .banner__box
+  {
+    padding: 0rem !important;
+  }
+  .caption
+  {
+    font-size:2rem;
+  }
+  .slider-button .icon {
+   display:block;
+    height: 2rem;
+    bottom:220px;
+  color:black;
+}
+  .slider-button[disabled] .icon 
+    {
+      position:inherit;
+    }
+
+  .slider-button--prev .icon
+  {
+    left: 0px;
+  }
+  .slider-button--next .icon
+  {
+  right: 0px;
+}
+}

@@ -1,0 +1,345 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "341d2f8e-7ef5-40d2-a91a-772c5aa8fe4a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18682790674751__341d2f8e-7ef5-40d2-a91a-772c5aa8fe4a-168182120123ff1523-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bannersecondimage.webp",
+            "heading": "<strong>Curvy Bevel Dual Audio</strong>",
+            "heading_size": "h0",
+            "subheading": "Black Edition",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center",
+            "image_link": "shopify://collections/vivo"
+          }
+        },
+        "e56b085e-718b-4885-adeb-348d4d0505bc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/17f30690b61453c069f7927f6dfb14ac.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center",
+            "image_link": "shopify://collections/vivo"
+          }
+        },
+        "67f4e164-160e-48c6-a8c7-d0b49833f596": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center",
+            "image_link": "shopify://collections/oppo"
+          }
+        },
+        "template--18682790674751__341d2f8e-7ef5-40d2-a91a-772c5aa8fe4a-168182120123ff1523-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/bannerimageone.webp",
+            "heading": "4K Resolution",
+            "heading_size": "h1",
+            "subheading": "<strong>STEEL FRAME</strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18682790674751__341d2f8e-7ef5-40d2-a91a-772c5aa8fe4a-168182120123ff1523-1",
+        "e56b085e-718b-4885-adeb-348d4d0505bc",
+        "67f4e164-160e-48c6-a8c7-d0b49833f596",
+        "template--18682790674751__341d2f8e-7ef5-40d2-a91a-772c5aa8fe4a-168182120123ff1523-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "5bc2eeff-b7c2-49ff-8975-4c9a4eb51e9a": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18682790674751__5bc2eeff-b7c2-49ff-8975-4c9a4eb51e9a-16819904060117d32d-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vivo"
+          }
+        },
+        "template--18682790674751__5bc2eeff-b7c2-49ff-8975-4c9a4eb51e9a-16819904060117d32d-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oppo"
+          }
+        },
+        "e2596d39-495b-4430-9831-9b9793f1c951": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "headphone"
+          }
+        },
+        "6a78c539-8c21-477e-9aef-3b2b3ba8600a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "watch"
+          }
+        }
+      },
+      "block_order": [
+        "template--18682790674751__5bc2eeff-b7c2-49ff-8975-4c9a4eb51e9a-16819904060117d32d-1",
+        "template--18682790674751__5bc2eeff-b7c2-49ff-8975-4c9a4eb51e9a-16819904060117d32d-2",
+        "e2596d39-495b-4430-9831-9b9793f1c951",
+        "6a78c539-8c21-477e-9aef-3b2b3ba8600a"
+      ],
+      "settings": {
+        "title": "TOP CATEGORIES",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "b40bf24b-4958-404c-be88-b6219a7950c5": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18682790674751__b40bf24b-4958-404c-be88-b6219a7950c5-1681979836523494cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--18682790674751__b40bf24b-4958-404c-be88-b6219a7950c5-1681979836523494cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18682790674751__b40bf24b-4958-404c-be88-b6219a7950c5-1681979836523494cd-0",
+        "template--18682790674751__b40bf24b-4958-404c-be88-b6219a7950c5-1681979836523494cd-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/imageopro.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "image_link": "shopify://collections/headphone"
+      }
+    },
+    "ff60d699-7d48-41cc-8c6a-a51efcd6b9b1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New arrivals",
+        "heading_size": "h1",
+        "description": "<p> Find the perfect phone for you</p>",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "oppo",
+        "products_to_show": 21,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "46a5b559-752c-4c34-ad40-fc74dc7f6797": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18682790674751__46a5b559-752c-4c34-ad40-fc74dc7f6797-1681879105c6d5117a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Gradient Color Finishes",
+            "heading_size": "h1"
+          }
+        },
+        "template--18682790674751__46a5b559-752c-4c34-ad40-fc74dc7f6797-1681879105c6d5117a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rierem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18682790674751__46a5b559-752c-4c34-ad40-fc74dc7f6797-1681879105c6d5117a-0",
+        "template--18682790674751__46a5b559-752c-4c34-ad40-fc74dc7f6797-1681879105c6d5117a-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Blueimage_183d0d0d-5a1f-40b3-9441-54b97fe116d6.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "168197046195d73c5e": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1dbad786-3ad7-48fb-b57c-aa6b7daf1525": {
+      "type": "Testimonials",
+      "blocks": {
+        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-0": {
+          "type": "quote",
+          "settings": {
+            "imgone": "shopify://shop_images/protoimg.webp",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Himani Singh - NEW DELHI",
+            "link": ""
+          }
+        },
+        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-1": {
+          "type": "quote",
+          "settings": {
+            "imgone": "shopify://shop_images/protoimg.webp",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Anna Grey",
+            "link": ""
+          }
+        },
+        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-2": {
+          "type": "quote",
+          "settings": {
+            "imgone": "shopify://shop_images/protoimg.webp",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Anna Grey",
+            "link": ""
+          }
+        },
+        "1dbd85be-d620-4552-a145-bc05c247cbc6": {
+          "type": "quote",
+          "settings": {
+            "imgone": "shopify://shop_images/Group_44496_900x_head_image.webp",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        },
+        "3a634710-643e-470c-b45a-725625fe9554": {
+          "type": "quote",
+          "settings": {
+            "imgone": "shopify://shop_images/protoimg.webp",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        },
+        "177f596e-5dee-4f0c-a612-5a2e351c7fe0": {
+          "type": "quote",
+          "settings": {
+            "imgone": "shopify://shop_images/Group_44496_900x_head_image.webp",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author’s name",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-0",
+        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-1",
+        "template--18682790674751__1dbad786-3ad7-48fb-b57c-aa6b7daf1525-1682423103d3fda559-2",
+        "1dbd85be-d620-4552-a145-bc05c247cbc6",
+        "3a634710-643e-470c-b45a-725625fe9554",
+        "177f596e-5dee-4f0c-a612-5a2e351c7fe0"
+      ],
+      "settings": {
+        "title": "Customer Review"
+      }
+    }
+  },
+  "order": [
+    "341d2f8e-7ef5-40d2-a91a-772c5aa8fe4a",
+    "5bc2eeff-b7c2-49ff-8975-4c9a4eb51e9a",
+    "b40bf24b-4958-404c-be88-b6219a7950c5",
+    "ff60d699-7d48-41cc-8c6a-a51efcd6b9b1",
+    "46a5b559-752c-4c34-ad40-fc74dc7f6797",
+    "168197046195d73c5e",
+    "1dbad786-3ad7-48fb-b57c-aa6b7daf1525"
+  ]
+}

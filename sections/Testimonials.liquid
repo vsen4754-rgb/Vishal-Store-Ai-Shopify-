@@ -1,0 +1,108 @@
+<div class="container_template_txt">
+<h2 class="Reviwe_of_txt">{{ section.settings.title }}</h2>
+  <div class="item_on_txt">
+{%- if section.blocks.size >0-%}
+  {%- for block in section.blocks -%}
+    <blockquote class="quote_blank_of">
+      {%- if block.settings.quote != blank -%}
+    <div>
+        <img src="{{ block.settings.imgone | img_url:'small'}}">
+      </div>
+      <div class="spr-stars">
+  <span role="img" aria-label="0 out of 5 stars">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="spr-star" style="width: 15px; height: 15px;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+          <path fill="#000000 " d="M512,197.819l-185.933-12.228L256,9.571l-70.067,176.021L0,197.82l142.658,120.93L95.856,502.429L256,401.214 l160.144,101.215l-46.8-183.671L512,197.819z M256,365.724l-112.464,71.08l32.827-128.831L75.829,222.888l130.971-8.603 L256,90.687l49.2,123.599l131.124,8.602l-100.689,85.077l32.829,128.839L256,365.724z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" role="presentation" class="spr-star" style="width: 15px; height: 15px;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+          <path fill="#000000 " d="M512,197.819l-185.933-12.228L256,9.571l-70.067,176.021L0,197.82l142.658,120.93L95.856,502.429L256,401.214 l160.144,101.215l-46.8-183.671L512,197.819z M256,365.724l-112.464,71.08l32.827-128.831L75.829,222.888l130.971-8.603 L256,90.687l49.2,123.599l131.124,8.602l-100.689,85.077l32.829,128.839L256,365.724z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" role="presentation" class="spr-star" style="width: 15px; height: 15px;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+          <path fill="#000000 " d="M512,197.819l-185.933-12.228L256,9.571l-70.067,176.021L0,197.82l142.658,120.93L95.856,502.429L256,401.214 l160.144,101.215l-46.8-183.671L512,197.819z M256,365.724l-112.464,71.08l32.827-128.831L75.829,222.888l130.971-8.603 L256,90.687l49.2,123.599l131.124,8.602l-100.689,85.077l32.829,128.839L256,365.724z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" role="presentation" class="spr-star" style="width: 15px; height: 15px;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+          <path fill="#000000 " d="M512,197.819l-185.933-12.228L256,9.571l-70.067,176.021L0,197.82l142.658,120.93L95.856,502.429L256,401.214 l160.144,101.215l-46.8-183.671L512,197.819z M256,365.724l-112.464,71.08l32.827-128.831L75.829,222.888l130.971-8.603 L256,90.687l49.2,123.599l131.124,8.602l-100.689,85.077l32.829,128.839L256,365.724z"></path>
+        </svg>
+        <svg aria-hidden="true" focusable="false" role="presentation" class="spr-star" style="width: 15px; height: 15px;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+          <path fill="#000000 " d="M512,197.819l-185.933-12.228L256,9.571l-70.067,176.021L0,197.82l142.658,120.93L95.856,502.429L256,401.214 l160.144,101.215l-46.8-183.671L512,197.819z M256,365.724l-112.464,71.08l32.827-128.831L75.829,222.888l130.971-8.603 L256,90.687l49.2,123.599l131.124,8.602l-100.689,85.077l32.829,128.839L256,365.724z"></path>
+        </svg>
+  </span>
+</div>
+        <p>
+          {{ block.settings.quote }}</p>
+      <cite>
+        <a href="{{ block.settings.link }}">
+          {{ block.settings.author }}
+        </a>
+      </cite>
+      {%- endif -%}
+    </blockquote>
+  {%- endfor -%}
+{%- endif -%}
+   </div>
+</div>
+{% schema %}
+{
+  "name": "Testimonials",
+  "class": "index-section",
+  "max_blocks":6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Testimonials"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "quote",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type":"image_picker",
+          "id":"imgone",
+          "label":"image"
+        },
+        {
+          "type": "richtext",
+          "id": "quote",
+          "label": "Text",
+          "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author",
+          "default": "Author’s name"
+        },
+        {
+    "type": "url",
+          "id": "link",
+          "label": "link"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name": "Testimonials",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+{% stylesheet %}
+{% endstylesheet %}
+{% javascript %}
+{% endjavascript %}

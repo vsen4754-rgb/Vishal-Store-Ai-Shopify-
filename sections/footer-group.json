@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "a61d4add-272c-4a28-847c-b0d7bfce24b1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo.webp",
+            "image_width": 550,
+            "alignment": "",
+            "textone": "myG digital is the hub for online mobile shopping and purchasing top quality electronic gadgets at affordable prices."
+          }
+        },
+        "ecc36e9c-6b00-4c45-b253-c4b642112f43": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "mobile-menu"
+          }
+        },
+        "32796651-7409-4426-b829-27d2ff7b434e": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Policies",
+            "menu": "moblieone"
+          }
+        },
+        "7aa85363-34be-4db0-890b-fbb9b81b29e3": {
+          "type": "text",
+          "settings": {
+            "heading": "Address : -",
+            "subtext": "<p><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>SagoriyaMandsuar</p><p>HospitalRoad,Pin-Code - 45883 <br><strong><i class=\"fa fa-phone\" aria-hidden=\"true\"></i>Phone No: 9832 041 531</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "a61d4add-272c-4a28-847c-b0d7bfce24b1",
+        "ecc36e9c-6b00-4c45-b253-c4b642112f43",
+        "32796651-7409-4426-b829-27d2ff7b434e",
+        "7aa85363-34be-4db0-890b-fbb9b81b29e3"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
