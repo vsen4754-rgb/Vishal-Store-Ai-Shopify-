@@ -1,0 +1,125 @@
+<!-- Customer Reviews Slider Section for Dawn Theme -->
+
+<div class="customer-reviews-slider-section" style="background: #f7fafc; padding: 40px 0;">
+  <div class="page-width">
+    <h2 class="section-title" style="text-align:center; font-weight:700; margin-bottom:32px;">
+      Customer Reviews
+    </h2>
+    <div class="slider-wrapper" style="position:relative;max-width:600px;margin:0 auto;">
+      <div class="slider" id="reviews-slider" style="display:flex;overflow:hidden;scroll-behavior:smooth;">
+        {% for block in section.blocks %}
+        <div class="slide" style="flex:0 0 100%; box-sizing:border-box; padding:24px;">
+          <div class="review-card" style="background:#fff;padding:24px;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.06);max-width:430px;margin:0 auto;">
+            <div style="display:flex;gap:12px;align-items:center;margin-bottom:12px;">
+              {% if block.settings.photo != blank %}
+              <img src="{{ block.settings.photo | img_url: '100x100' }}" alt="{{ block.settings.name }}" style="width:52px;height:52px;border-radius:50%;">
+              {% else %}
+              <div style="width:52px;height:52px;background:#ddd;border-radius:50%;"></div>
+              {% endif %}
+              <div>
+                <div style="font-weight:600;font-size:1.1em;">{{ block.settings.name }}</div>
+                <div>
+                  {% for star in (1..block.settings.stars) %}
+                  <span style="color:#f6c700;font-size:1.2em;">★</span>
+                  {% endfor %}
+                  {% for star in (block.settings.stars+1)..5 %}
+                  <span style="color:#e2e2e2;font-size:1.2em;">★</span>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            <div style="font-size:1em;color:#222;">“{{ block.settings.review }}”</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <!-- Slider Navigation -->
+      <button id="sliderPrev" type="button" aria-label="Previous review" style="position:absolute;left:-40px;top:50%;transform:translateY(-50%);background:#fff;border:none;border-radius:50%;width:36px;height:36px;box-shadow:0 1px 4px rgba(0,0,0,0.1);font-size:22px;cursor:pointer;">&#8592;</button>
+      <button id="sliderNext" type="button" aria-label="Next review" style="position:absolute;right:-40px;top:50%;transform:translateY(-50%);background:#fff;border:none;border-radius:50%;width:36px;height:36px;box-shadow:0 1px 4px rgba(0,0,0,0.1);font-size:22px;cursor:pointer;">&#8594;</button>
+      <!-- Slider Dots -->
+      <div id="sliderDots" style="display:flex;justify-content:center;gap:10px;margin-top:20px;">
+        {% for block in section.blocks %}
+        <span class="slider-dot" style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#e2e2e2;cursor:pointer;"></span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var slider = document.getElementById("reviews-slider");
+  var slides = slider ? slider.querySelectorAll(".slide") : [];
+  var currentIndex = 0;
+  var prevBtn = document.getElementById("sliderPrev");
+  var nextBtn = document.getElementById("sliderNext");
+  var dots = document.querySelectorAll("#sliderDots .slider-dot");
+
+  function showSlide(index) {
+    if (!slides.length) return;
+    currentIndex = Math.max(0, Math.min(index, slides.length - 1));
+    slider.scrollLeft = slider.offsetWidth * currentIndex;
+    dots.forEach(function(dot, i){
+      dot.style.background = i === currentIndex ? "#f6c700" : "#e2e2e2";
+    });
+  }
+
+  if(prevBtn) prevBtn.onclick = function () { showSlide(currentIndex - 1); };
+  if(nextBtn) nextBtn.onclick = function () { showSlide(currentIndex + 1); };
+
+  dots.forEach(function(dot, i){
+    dot.addEventListener("click", function(){ showSlide(i); });
+  });
+
+  // Responsive - reset to first slide on resize
+  window.addEventListener("resize", function () { showSlide(currentIndex); });
+
+  // Initialize
+  showSlide(0);
+});
+</script>
+
+{% schema %}
+{
+  "name": "Customer Reviews Slider",
+  "max_blocks": 10,
+  "settings": [],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Customer name"
+        },
+        {
+          "type": "textarea",
+          "id": "review",
+          "label": "Review text"
+        },
+        {
+          "type": "number",
+          "id": "stars",
+          "label": "Stars (1-5)",
+          "default": 5,
+          "min": 1,
+          "max": 5
+        },
+        {
+          "type": "image_picker",
+          "id": "photo",
+          "label": "Photo (optional)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Customer Reviews Slider",
+      "category": "Testimonial"
+    }
+  ]
+}
+{% endschema %}
